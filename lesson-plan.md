@@ -107,22 +107,23 @@ echo $?
 Loops
 
 ```bash
-for file in *.md
-  do cat $file
+for file in *.md do
+  cat $file
 done
 ```
 
 ```bash
-while true
- do echo "help im stuck"
+while true do
+ echo "help im stuck"
 done
 ```
 
 ```bash
-(( i=10 )); while (( i > 0 ))
-do echo "$i bottles of beer on the wall"
-sleep 1
-((i--))
+(( i=10 )); while (( i > 0 )) do
+  echo "$i bottles of beer on the wall"
+  sleep 1
+  ((i--))
+done
 ```
 
 ```bash
